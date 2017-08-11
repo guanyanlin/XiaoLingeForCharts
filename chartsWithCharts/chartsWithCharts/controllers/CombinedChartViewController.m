@@ -81,7 +81,7 @@
     //对应Y轴上面需要显示的数据
     NSMutableArray *yVals = [[NSMutableArray alloc] init];
     for (int i = 0; i < 12; i++) {
-        double val = (double)arc4random_uniform(40);
+        double val = (double)arc4random_uniform(10);
         BarChartDataEntry *entry = [[BarChartDataEntry alloc] initWithX:i y:val];
         [yVals addObject:entry];
     }
@@ -109,7 +109,7 @@
     //对应Y轴上面需要显示的数据
     NSMutableArray *yVals = [[NSMutableArray alloc] init];
     for (int i = 1; i <= 12; i++) {
-        double val = (double)arc4random_uniform(50);
+        double val = (double)arc4random_uniform(10);
         ChartDataEntry *entry = [[ChartDataEntry alloc] initWithX:i y:val];
         [yVals addObject:entry];
     }
@@ -117,7 +117,7 @@
     //对应Y轴上面需要显示的数据
     NSMutableArray *yVals2 = [[NSMutableArray alloc] init];
     for (int i = 1; i <= 12; i++) {
-        double val = (double)(arc4random_uniform(20));
+        double val = (double)(arc4random_uniform(10));
         ChartDataEntry *entry = [[ChartDataEntry alloc] initWithX:i y:val];
         [yVals2 addObject:entry];
     }

@@ -97,7 +97,7 @@
     //对应Y轴上面需要显示的数据
     NSMutableArray *yVals2 = [[NSMutableArray alloc] init];
     for (int i = 1; i <= xVals_count; i++) {
-        double val = (double)(arc4random_uniform(60));
+        double val = (double)(arc4random_uniform(10));
         ChartDataEntry *entry = [[ChartDataEntry alloc] initWithX:i y:val];
         if(i%4==0){
             [entry setIcon:[UIImage imageNamed:@"southWest"]];

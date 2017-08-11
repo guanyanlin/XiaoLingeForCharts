@@ -9,12 +9,24 @@
 /* Begin PBXBuildFile section */
 		F0F9C6891F3D8EE20057FC70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9C6881F3D8EE20057FC70 /* main.m */; };
 		F0F9C68C1F3D8EE20057FC70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9C68B1F3D8EE20057FC70 /* AppDelegate.m */; };
-		F0F9C68F1F3D8EE20057FC70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9C68E1F3D8EE20057FC70 /* ViewController.m */; };
 		F0F9C6921F3D8EE20057FC70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C6901F3D8EE20057FC70 /* Main.storyboard */; };
 		F0F9C6941F3D8EE20057FC70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C6931F3D8EE20057FC70 /* Assets.xcassets */; };
 		F0F9C6971F3D8EE20057FC70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C6951F3D8EE20057FC70 /* LaunchScreen.storyboard */; };
 		F0F9C6A21F3D8EE20057FC70 /* chartsWithChartsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9C6A11F3D8EE20057FC70 /* chartsWithChartsTests.m */; };
 		F0F9C6AD1F3D8EE20057FC70 /* chartsWithChartsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9C6AC1F3D8EE20057FC70 /* chartsWithChartsUITests.m */; };
+		F0F9C6C31F3D90730057FC70 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F9C6C01F3D905D0057FC70 /* Charts.framework */; };
+		F0F9C6C41F3D90730057FC70 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0F9C6C01F3D905D0057FC70 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0F9C6CA1F3D90910057FC70 /* ChartsBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F9C6C91F3D90910057FC70 /* ChartsBridge.swift */; };
+		F0F9C6E01F3D90EA0057FC70 /* BaseBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9C6CD1F3D90EA0057FC70 /* BaseBarChartViewController.m */; };
+		F0F9C6E11F3D90EA0057FC70 /* BaseLineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9C6CF1F3D90EA0057FC70 /* BaseLineChartViewController.m */; };
+		F0F9C6E21F3D90EA0057FC70 /* CombinedChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9C6D11F3D90EA0057FC70 /* CombinedChartViewController.m */; };
+		F0F9C6E31F3D90EA0057FC70 /* LineAndBarWithSameXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9C6D31F3D90EA0057FC70 /* LineAndBarWithSameXViewController.m */; };
+		F0F9C6E41F3D90EA0057FC70 /* LineChartWithIconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9C6D51F3D90EA0057FC70 /* LineChartWithIconViewController.m */; };
+		F0F9C6E51F3D90EA0057FC70 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9C6D71F3D90EA0057FC70 /* MainMenuViewController.m */; };
+		F0F9C6E61F3D90EA0057FC70 /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C6D81F3D90EA0057FC70 /* MainMenuViewController.xib */; };
+		F0F9C6E71F3D90EA0057FC70 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9C6DB1F3D90EA0057FC70 /* BaseViewController.m */; };
+		F0F9C6E81F3D90EA0057FC70 /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C6DC1F3D90EA0057FC70 /* BaseViewController.xib */; };
+		F0F9C6E91F3D90EA0057FC70 /* MymarkerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9C6DF1F3D90EA0057FC70 /* MymarkerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,15 +44,48 @@
 			remoteGlobalIDString = F0F9C6831F3D8EE20057FC70;
 			remoteInfo = chartsWithCharts;
 		};
+		F0F9C6BF1F3D905D0057FC70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0F9C6BA1F3D905C0057FC70 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06165F241D8110E600722320;
+			remoteInfo = Charts;
+		};
+		F0F9C6C11F3D905D0057FC70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0F9C6BA1F3D905C0057FC70 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06165F2E1D8110E600722320;
+			remoteInfo = ChartsTests;
+		};
+		F0F9C6C51F3D90730057FC70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0F9C6BA1F3D905C0057FC70 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 06165F231D8110E600722320;
+			remoteInfo = Charts;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F0F9C6C71F3D90730057FC70 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F0F9C6C41F3D90730057FC70 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F0F9C6841F3D8EE20057FC70 /* chartsWithCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chartsWithCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F9C6881F3D8EE20057FC70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F0F9C68A1F3D8EE20057FC70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F0F9C68B1F3D8EE20057FC70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F0F9C68D1F3D8EE20057FC70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F0F9C68E1F3D8EE20057FC70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F0F9C6911F3D8EE20057FC70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0F9C6931F3D8EE20057FC70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0F9C6961F3D8EE20057FC70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +96,27 @@
 		F0F9C6A81F3D8EE20057FC70 /* chartsWithChartsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chartsWithChartsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F9C6AC1F3D8EE20057FC70 /* chartsWithChartsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chartsWithChartsUITests.m; sourceTree = "<group>"; };
 		F0F9C6AE1F3D8EE20057FC70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0F9C6BA1F3D905C0057FC70 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
+		F0F9C6C81F3D90910057FC70 /* chartsWithCharts-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "chartsWithCharts-Bridging-Header.h"; sourceTree = "<group>"; };
+		F0F9C6C91F3D90910057FC70 /* ChartsBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartsBridge.swift; sourceTree = "<group>"; };
+		F0F9C6CC1F3D90EA0057FC70 /* BaseBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseBarChartViewController.h; sourceTree = "<group>"; };
+		F0F9C6CD1F3D90EA0057FC70 /* BaseBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseBarChartViewController.m; sourceTree = "<group>"; };
+		F0F9C6CE1F3D90EA0057FC70 /* BaseLineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseLineChartViewController.h; sourceTree = "<group>"; };
+		F0F9C6CF1F3D90EA0057FC70 /* BaseLineChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseLineChartViewController.m; sourceTree = "<group>"; };
+		F0F9C6D01F3D90EA0057FC70 /* CombinedChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombinedChartViewController.h; sourceTree = "<group>"; };
+		F0F9C6D11F3D90EA0057FC70 /* CombinedChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombinedChartViewController.m; sourceTree = "<group>"; };
+		F0F9C6D21F3D90EA0057FC70 /* LineAndBarWithSameXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineAndBarWithSameXViewController.h; sourceTree = "<group>"; };
+		F0F9C6D31F3D90EA0057FC70 /* LineAndBarWithSameXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineAndBarWithSameXViewController.m; sourceTree = "<group>"; };
+		F0F9C6D41F3D90EA0057FC70 /* LineChartWithIconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartWithIconViewController.h; sourceTree = "<group>"; };
+		F0F9C6D51F3D90EA0057FC70 /* LineChartWithIconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartWithIconViewController.m; sourceTree = "<group>"; };
+		F0F9C6D61F3D90EA0057FC70 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		F0F9C6D71F3D90EA0057FC70 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		F0F9C6D81F3D90EA0057FC70 /* MainMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenuViewController.xib; sourceTree = "<group>"; };
+		F0F9C6DA1F3D90EA0057FC70 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F0F9C6DB1F3D90EA0057FC70 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F0F9C6DC1F3D90EA0057FC70 /* BaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseViewController.xib; sourceTree = "<group>"; };
+		F0F9C6DE1F3D90EA0057FC70 /* MymarkerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MymarkerView.h; sourceTree = "<group>"; };
+		F0F9C6DF1F3D90EA0057FC70 /* MymarkerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MymarkerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0F9C6C31F3D90730057FC70 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +148,7 @@
 		F0F9C67B1F3D8EE20057FC70 = {
 			isa = PBXGroup;
 			children = (
+				F0F9C6BA1F3D905C0057FC70 /* Charts.xcodeproj */,
 				F0F9C6861F3D8EE20057FC70 /* chartsWithCharts */,
 				F0F9C6A01F3D8EE20057FC70 /* chartsWithChartsTests */,
 				F0F9C6AB1F3D8EE20057FC70 /* chartsWithChartsUITests */,
@@ -101,14 +169,9 @@
 		F0F9C6861F3D8EE20057FC70 /* chartsWithCharts */ = {
 			isa = PBXGroup;
 			children = (
-				F0F9C68A1F3D8EE20057FC70 /* AppDelegate.h */,
-				F0F9C68B1F3D8EE20057FC70 /* AppDelegate.m */,
-				F0F9C68D1F3D8EE20057FC70 /* ViewController.h */,
-				F0F9C68E1F3D8EE20057FC70 /* ViewController.m */,
-				F0F9C6901F3D8EE20057FC70 /* Main.storyboard */,
-				F0F9C6931F3D8EE20057FC70 /* Assets.xcassets */,
-				F0F9C6951F3D8EE20057FC70 /* LaunchScreen.storyboard */,
-				F0F9C6981F3D8EE20057FC70 /* Info.plist */,
+				F0F9C6CB1F3D90EA0057FC70 /* controllers */,
+				F0F9C6D91F3D90EA0057FC70 /* parent */,
+				F0F9C6DD1F3D90EA0057FC70 /* views */,
 				F0F9C6871F3D8EE20057FC70 /* Supporting Files */,
 			);
 			path = chartsWithCharts;
@@ -117,7 +180,15 @@
 		F0F9C6871F3D8EE20057FC70 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F0F9C68A1F3D8EE20057FC70 /* AppDelegate.h */,
+				F0F9C68B1F3D8EE20057FC70 /* AppDelegate.m */,
+				F0F9C6901F3D8EE20057FC70 /* Main.storyboard */,
+				F0F9C6931F3D8EE20057FC70 /* Assets.xcassets */,
+				F0F9C6951F3D8EE20057FC70 /* LaunchScreen.storyboard */,
+				F0F9C6981F3D8EE20057FC70 /* Info.plist */,
 				F0F9C6881F3D8EE20057FC70 /* main.m */,
+				F0F9C6C91F3D90910057FC70 /* ChartsBridge.swift */,
+				F0F9C6C81F3D90910057FC70 /* chartsWithCharts-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +211,54 @@
 			path = chartsWithChartsUITests;
 			sourceTree = "<group>";
 		};
+		F0F9C6BB1F3D905C0057FC70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0F9C6C01F3D905D0057FC70 /* Charts.framework */,
+				F0F9C6C21F3D905D0057FC70 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0F9C6CB1F3D90EA0057FC70 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F0F9C6CC1F3D90EA0057FC70 /* BaseBarChartViewController.h */,
+				F0F9C6CD1F3D90EA0057FC70 /* BaseBarChartViewController.m */,
+				F0F9C6CE1F3D90EA0057FC70 /* BaseLineChartViewController.h */,
+				F0F9C6CF1F3D90EA0057FC70 /* BaseLineChartViewController.m */,
+				F0F9C6D01F3D90EA0057FC70 /* CombinedChartViewController.h */,
+				F0F9C6D11F3D90EA0057FC70 /* CombinedChartViewController.m */,
+				F0F9C6D21F3D90EA0057FC70 /* LineAndBarWithSameXViewController.h */,
+				F0F9C6D31F3D90EA0057FC70 /* LineAndBarWithSameXViewController.m */,
+				F0F9C6D41F3D90EA0057FC70 /* LineChartWithIconViewController.h */,
+				F0F9C6D51F3D90EA0057FC70 /* LineChartWithIconViewController.m */,
+				F0F9C6D61F3D90EA0057FC70 /* MainMenuViewController.h */,
+				F0F9C6D71F3D90EA0057FC70 /* MainMenuViewController.m */,
+				F0F9C6D81F3D90EA0057FC70 /* MainMenuViewController.xib */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		F0F9C6D91F3D90EA0057FC70 /* parent */ = {
+			isa = PBXGroup;
+			children = (
+				F0F9C6DA1F3D90EA0057FC70 /* BaseViewController.h */,
+				F0F9C6DB1F3D90EA0057FC70 /* BaseViewController.m */,
+				F0F9C6DC1F3D90EA0057FC70 /* BaseViewController.xib */,
+			);
+			path = parent;
+			sourceTree = "<group>";
+		};
+		F0F9C6DD1F3D90EA0057FC70 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				F0F9C6DE1F3D90EA0057FC70 /* MymarkerView.h */,
+				F0F9C6DF1F3D90EA0057FC70 /* MymarkerView.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,10 +269,12 @@
 				F0F9C6801F3D8EE20057FC70 /* Sources */,
 				F0F9C6811F3D8EE20057FC70 /* Frameworks */,
 				F0F9C6821F3D8EE20057FC70 /* Resources */,
+				F0F9C6C71F3D90730057FC70 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F0F9C6C61F3D90730057FC70 /* PBXTargetDependency */,
 			);
 			name = chartsWithCharts;
 			productName = chartsWithCharts;
@@ -207,7 +328,8 @@
 				TargetAttributes = {
 					F0F9C6831F3D8EE20057FC70 = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = 6Y4PJ6HLVE;
+						DevelopmentTeam = ACT62CX477;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					F0F9C69C1F3D8EE20057FC70 = {
@@ -235,6 +357,12 @@
 			mainGroup = F0F9C67B1F3D8EE20057FC70;
 			productRefGroup = F0F9C6851F3D8EE20057FC70 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F0F9C6BB1F3D905C0057FC70 /* Products */;
+					ProjectRef = F0F9C6BA1F3D905C0057FC70 /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F0F9C6831F3D8EE20057FC70 /* chartsWithCharts */,
@@ -244,11 +372,30 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		F0F9C6C01F3D905D0057FC70 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = F0F9C6BF1F3D905D0057FC70 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F0F9C6C21F3D905D0057FC70 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = F0F9C6C11F3D905D0057FC70 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		F0F9C6821F3D8EE20057FC70 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0F9C6E61F3D90EA0057FC70 /* MainMenuViewController.xib in Resources */,
+				F0F9C6E81F3D90EA0057FC70 /* BaseViewController.xib in Resources */,
 				F0F9C6971F3D8EE20057FC70 /* LaunchScreen.storyboard in Resources */,
 				F0F9C6941F3D8EE20057FC70 /* Assets.xcassets in Resources */,
 				F0F9C6921F3D8EE20057FC70 /* Main.storyboard in Resources */,
@@ -276,8 +423,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0F9C68F1F3D8EE20057FC70 /* ViewController.m in Sources */,
+				F0F9C6E21F3D90EA0057FC70 /* CombinedChartViewController.m in Sources */,
+				F0F9C6E71F3D90EA0057FC70 /* BaseViewController.m in Sources */,
+				F0F9C6E01F3D90EA0057FC70 /* BaseBarChartViewController.m in Sources */,
 				F0F9C68C1F3D8EE20057FC70 /* AppDelegate.m in Sources */,
+				F0F9C6E31F3D90EA0057FC70 /* LineAndBarWithSameXViewController.m in Sources */,
+				F0F9C6E51F3D90EA0057FC70 /* MainMenuViewController.m in Sources */,
+				F0F9C6E91F3D90EA0057FC70 /* MymarkerView.m in Sources */,
+				F0F9C6CA1F3D90910057FC70 /* ChartsBridge.swift in Sources */,
+				F0F9C6E11F3D90EA0057FC70 /* BaseLineChartViewController.m in Sources */,
+				F0F9C6E41F3D90EA0057FC70 /* LineChartWithIconViewController.m in Sources */,
 				F0F9C6891F3D8EE20057FC70 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +465,11 @@
 			isa = PBXTargetDependency;
 			target = F0F9C6831F3D8EE20057FC70 /* chartsWithCharts */;
 			targetProxy = F0F9C6A91F3D8EE20057FC70 /* PBXContainerItemProxy */;
+		};
+		F0F9C6C61F3D90730057FC70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = F0F9C6C51F3D90730057FC70 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -428,30 +588,40 @@
 		F0F9C6B21F3D8EE20057FC70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6Y4PJ6HLVE;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = ACT62CX477;
 				INFOPLIST_FILE = chartsWithCharts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.piespace.chartsWithCharts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piespace.chartsWithCharts1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "chartsWithCharts/chartsWithCharts-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		F0F9C6B31F3D8EE20057FC70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6Y4PJ6HLVE;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = ACT62CX477;
 				INFOPLIST_FILE = chartsWithCharts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.piespace.chartsWithCharts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piespace.chartsWithCharts1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "chartsWithCharts/chartsWithCharts-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		F0F9C6B51F3D8EE20057FC70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 6Y4PJ6HLVE;
 				INFOPLIST_FILE = chartsWithChartsTests/Info.plist;
@@ -465,6 +635,7 @@
 		F0F9C6B61F3D8EE20057FC70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 6Y4PJ6HLVE;
 				INFOPLIST_FILE = chartsWithChartsTests/Info.plist;
@@ -478,6 +649,7 @@
 		F0F9C6B81F3D8EE20057FC70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6Y4PJ6HLVE;
 				INFOPLIST_FILE = chartsWithChartsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -490,6 +662,7 @@
 		F0F9C6B91F3D8EE20057FC70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6Y4PJ6HLVE;
 				INFOPLIST_FILE = chartsWithChartsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

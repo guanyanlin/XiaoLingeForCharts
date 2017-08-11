@@ -27,10 +27,11 @@
 		F0F9C6E71F3D90EA0057FC70 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9C6DB1F3D90EA0057FC70 /* BaseViewController.m */; };
 		F0F9C6E81F3D90EA0057FC70 /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C6DC1F3D90EA0057FC70 /* BaseViewController.xib */; };
 		F0F9C6E91F3D90EA0057FC70 /* MymarkerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9C6DF1F3D90EA0057FC70 /* MymarkerView.m */; };
-		F0F9C7051F3DA5BA0057FC70 /* combinedChart.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C7011F3DA5BA0057FC70 /* combinedChart.PNG */; };
-		F0F9C7061F3DA5BA0057FC70 /* lineEntryIcon.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C7021F3DA5BA0057FC70 /* lineEntryIcon.PNG */; };
-		F0F9C7071F3DA5BA0057FC70 /* sameXaxis.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C7031F3DA5BA0057FC70 /* sameXaxis.PNG */; };
-		F0F9C7081F3DA5BA0057FC70 /* XAxisLabelinCenter.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C7041F3DA5BA0057FC70 /* XAxisLabelinCenter.PNG */; };
+		F0F9C7111F3DBC8A0057FC70 /* XaxisLabelRealinCenter.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C70C1F3DBC8A0057FC70 /* XaxisLabelRealinCenter.PNG */; };
+		F0F9C7121F3DBC8A0057FC70 /* XAxisLabelinCenter.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C70D1F3DBC8A0057FC70 /* XAxisLabelinCenter.PNG */; };
+		F0F9C7131F3DBC8A0057FC70 /* combinedChart.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C70E1F3DBC8A0057FC70 /* combinedChart.PNG */; };
+		F0F9C7141F3DBC8A0057FC70 /* sameXaxis.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C70F1F3DBC8A0057FC70 /* sameXaxis.PNG */; };
+		F0F9C7151F3DBC8A0057FC70 /* lineEntryIcon.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C7101F3DBC8A0057FC70 /* lineEntryIcon.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,10 +122,11 @@
 		F0F9C6DC1F3D90EA0057FC70 /* BaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseViewController.xib; sourceTree = "<group>"; };
 		F0F9C6DE1F3D90EA0057FC70 /* MymarkerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MymarkerView.h; sourceTree = "<group>"; };
 		F0F9C6DF1F3D90EA0057FC70 /* MymarkerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MymarkerView.m; sourceTree = "<group>"; };
-		F0F9C7011F3DA5BA0057FC70 /* combinedChart.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = combinedChart.PNG; sourceTree = "<group>"; };
-		F0F9C7021F3DA5BA0057FC70 /* lineEntryIcon.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lineEntryIcon.PNG; sourceTree = "<group>"; };
-		F0F9C7031F3DA5BA0057FC70 /* sameXaxis.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sameXaxis.PNG; sourceTree = "<group>"; };
-		F0F9C7041F3DA5BA0057FC70 /* XAxisLabelinCenter.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XAxisLabelinCenter.PNG; sourceTree = "<group>"; };
+		F0F9C70C1F3DBC8A0057FC70 /* XaxisLabelRealinCenter.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XaxisLabelRealinCenter.PNG; sourceTree = "<group>"; };
+		F0F9C70D1F3DBC8A0057FC70 /* XAxisLabelinCenter.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XAxisLabelinCenter.PNG; sourceTree = "<group>"; };
+		F0F9C70E1F3DBC8A0057FC70 /* combinedChart.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = combinedChart.PNG; sourceTree = "<group>"; };
+		F0F9C70F1F3DBC8A0057FC70 /* sameXaxis.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sameXaxis.PNG; sourceTree = "<group>"; };
+		F0F9C7101F3DBC8A0057FC70 /* lineEntryIcon.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lineEntryIcon.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,10 +273,11 @@
 		F0F9C7001F3DA5BA0057FC70 /* image */ = {
 			isa = PBXGroup;
 			children = (
-				F0F9C7011F3DA5BA0057FC70 /* combinedChart.PNG */,
-				F0F9C7021F3DA5BA0057FC70 /* lineEntryIcon.PNG */,
-				F0F9C7031F3DA5BA0057FC70 /* sameXaxis.PNG */,
-				F0F9C7041F3DA5BA0057FC70 /* XAxisLabelinCenter.PNG */,
+				F0F9C70C1F3DBC8A0057FC70 /* XaxisLabelRealinCenter.PNG */,
+				F0F9C70D1F3DBC8A0057FC70 /* XAxisLabelinCenter.PNG */,
+				F0F9C70E1F3DBC8A0057FC70 /* combinedChart.PNG */,
+				F0F9C70F1F3DBC8A0057FC70 /* sameXaxis.PNG */,
+				F0F9C7101F3DBC8A0057FC70 /* lineEntryIcon.PNG */,
 			);
 			path = image;
 			sourceTree = "<group>";
@@ -414,15 +417,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0F9C7111F3DBC8A0057FC70 /* XaxisLabelRealinCenter.PNG in Resources */,
+				F0F9C7121F3DBC8A0057FC70 /* XAxisLabelinCenter.PNG in Resources */,
 				F0F9C6E61F3D90EA0057FC70 /* MainMenuViewController.xib in Resources */,
+				F0F9C7141F3DBC8A0057FC70 /* sameXaxis.PNG in Resources */,
 				F0F9C6E81F3D90EA0057FC70 /* BaseViewController.xib in Resources */,
 				F0F9C6971F3D8EE20057FC70 /* LaunchScreen.storyboard in Resources */,
-				F0F9C7071F3DA5BA0057FC70 /* sameXaxis.PNG in Resources */,
-				F0F9C7061F3DA5BA0057FC70 /* lineEntryIcon.PNG in Resources */,
-				F0F9C7051F3DA5BA0057FC70 /* combinedChart.PNG in Resources */,
 				F0F9C6941F3D8EE20057FC70 /* Assets.xcassets in Resources */,
 				F0F9C6921F3D8EE20057FC70 /* Main.storyboard in Resources */,
-				F0F9C7081F3DA5BA0057FC70 /* XAxisLabelinCenter.PNG in Resources */,
+				F0F9C7131F3DBC8A0057FC70 /* combinedChart.PNG in Resources */,
+				F0F9C7151F3DBC8A0057FC70 /* lineEntryIcon.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -715,6 +719,7 @@
 				F0F9C6B31F3D8EE20057FC70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0F9C6B41F3D8EE20057FC70 /* Build configuration list for PBXNativeTarget "chartsWithChartsTests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +728,7 @@
 				F0F9C6B61F3D8EE20057FC70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0F9C6B71F3D8EE20057FC70 /* Build configuration list for PBXNativeTarget "chartsWithChartsUITests" */ = {
 			isa = XCConfigurationList;
@@ -731,6 +737,7 @@
 				F0F9C6B91F3D8EE20057FC70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -55,10 +55,11 @@
     xAxis.granularityEnabled = YES;//设置重复的值不显示
     xAxis.labelPosition= XAxisLabelPositionBottom;//设置x轴数据在底部
     xAxis.gridColor = [UIColor grayColor];
-    xAxis.labelTextColor = [UIColor blackColor];//文字颜色
+    xAxis.labelTextColor = [UIColor whiteColor];//文字颜色
     xAxis.axisLineColor = [UIColor grayColor];
     lineView.maxVisibleCount = 999;//设置能够显示的数据数量
     xAxis.axisMinValue = 1;
+    
     
     _lineView = lineView;
     _lineView.data = [self setData];  //设置折线图的数据

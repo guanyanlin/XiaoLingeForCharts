@@ -149,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				F0F9C6BA1F3D905C0057FC70 /* Charts.xcodeproj */,
+				F0F9C6EA1F3D94A70057FC70 /* image-folder */,
 				F0F9C6861F3D8EE20057FC70 /* chartsWithCharts */,
 				F0F9C6A01F3D8EE20057FC70 /* chartsWithChartsTests */,
 				F0F9C6AB1F3D8EE20057FC70 /* chartsWithChartsUITests */,
@@ -257,6 +258,13 @@
 				F0F9C6DF1F3D90EA0057FC70 /* MymarkerView.m */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		F0F9C6EA1F3D94A70057FC70 /* image-folder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "image-folder";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

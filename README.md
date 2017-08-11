@@ -65,20 +65,20 @@
     	}
 
 
-	2) ![](https://raw.githubusercontent.com/guanyanlin/XiaoLingeForCharts/master/chartsWithCharts/chartsWithCharts/screenshot/xaxisLabelincenter.png)
+	![](https://github.com/guanyanlin/XiaoLingeForCharts/blob/master/chartsWithCharts/chartsWithCharts/screenshot/combinedchart.png)
 
-https://github.com/guanyanlin/XiaoLingeForCharts/blob/master/chartsWithCharts/chartsWithCharts/screenshot/combinedchart.png
+
 	这个其实就是添加了一下x轴上的控制线（具体的控制线添加方法，参照以上的步骤 5），为x轴上的点添加了数据的界限 线条，所以让人看起来像是x轴的数据在中间，其实仔细分析，x轴的数据根本没有变化，每一个x轴的label点还在原来位置，只不过只由于控制线的原因让其看起来位置像是移动了。
 	使用场景：其实和其他的一般折线图的场景一样，表示某个具体时刻的数据大小；
 
-	3) ![](https://raw.githubusercontent.com/guanyanlin/XiaoLingeForCharts/master/chartsWithCharts/chartsWithCharts/screenshot/xaxisLabelrealincenter.png)
+	![](https://github.com/guanyanlin/XiaoLingeForCharts/blob/master/chartsWithCharts/chartsWithCharts/screenshot/xaxisLabelrealincenter.png)
 
 
 	相比于上面一个这个又有所不同，这个效果确实真的x轴的label的位置已到了中间，仔细看可以发现，x轴上的label数据的位置没有任何点；
 	实现效果用了一个x轴的另一个属性：xAxis.centerAxisLabelsEnabled = YES;设置label在中间；
 	使用场景：一般当x轴上的label表示的不是某个点的数据，而是某一段时间段的温度变化等，但是上面一个则是表示一个时间点（只能是某个时间点的最高温度，最低温度等）
 
-	4) ![](https://raw.githubusercontent.com/guanyanlin/XiaoLingeForCharts/master/chartsWithCharts/chartsWithCharts/screenshot/combinedchart.png)
+	![](https://github.com/guanyanlin/XiaoLingeForCharts/blob/master/chartsWithCharts/chartsWithCharts/screenshot/combinedchart.png)
 
 
 	这个其实也就是通过另一个混合视图，Charts自带的：CombinedChartView 初始化。然后通过
@@ -89,7 +89,7 @@ https://github.com/guanyanlin/XiaoLingeForCharts/blob/master/chartsWithCharts/ch
     这种方式分别设置折线和柱状图的数据等。
 
 
-	5) ![](https://raw.githubusercontent.com/guanyanlin/XiaoLingeForCharts/master/chartsWithCharts/chartsWithCharts/screenshot/samexaxis.png)
+	![](https://github.com/guanyanlin/XiaoLingeForCharts/blob/master/chartsWithCharts/chartsWithCharts/screenshot/samexaxis.png)
 
 
 	这个难点就在于，两个视图进行的联动(当折线图滑动时柱状图也会跟着滑动，同理，柱状图滑动时折线图也会滑动)

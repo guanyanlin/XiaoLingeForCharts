@@ -44,7 +44,9 @@
 
 三、下面以几个例子讲解一下具体实现效果的代码：
 
-	![图片加载失败](https://www.baidu.com/img/bdlogo.gif)
+	![图片加载失败]（https://github.com/guanyanlin/XiaoLingeForCharts/blob/master/chartsWithCharts/chartsWithCharts/screenshot/lineentryicon.png）
+
+
 
 	这个效果其实很简单，就是通过添加数据时的Entry的icon属性：
 	例如：//对应Y轴上面需要显示的数据

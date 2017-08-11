@@ -44,7 +44,7 @@
 
 三、下面以几个例子讲解一下具体实现效果的代码：
 
-	1) ![](https://raw.githubusercontent.com/guanyanlin/XiaoLingeForCharts/master/chartsWithCharts/chartsWithCharts/screenshot/lineentryicon.png)
+	![](https://github.com/guanyanlin/XiaoLingeForCharts/blob/master/chartsWithCharts/chartsWithCharts/screenshot/combinedchart.png?raw=true)
 
 	这个效果其实很简单，就是通过添加数据时的Entry的icon属性：
 	例如：//对应Y轴上面需要显示的数据
@@ -66,8 +66,8 @@
 
 
 	2) ![](https://raw.githubusercontent.com/guanyanlin/XiaoLingeForCharts/master/chartsWithCharts/chartsWithCharts/screenshot/xaxisLabelincenter.png)
-		
 
+https://github.com/guanyanlin/XiaoLingeForCharts/blob/master/chartsWithCharts/chartsWithCharts/screenshot/combinedchart.png
 	这个其实就是添加了一下x轴上的控制线（具体的控制线添加方法，参照以上的步骤 5），为x轴上的点添加了数据的界限 线条，所以让人看起来像是x轴的数据在中间，其实仔细分析，x轴的数据根本没有变化，每一个x轴的label点还在原来位置，只不过只由于控制线的原因让其看起来位置像是移动了。
 	使用场景：其实和其他的一般折线图的场景一样，表示某个具体时刻的数据大小；
 

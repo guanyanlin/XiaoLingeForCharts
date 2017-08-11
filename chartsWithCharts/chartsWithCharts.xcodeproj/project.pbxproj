@@ -27,11 +27,11 @@
 		F0F9C6E71F3D90EA0057FC70 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9C6DB1F3D90EA0057FC70 /* BaseViewController.m */; };
 		F0F9C6E81F3D90EA0057FC70 /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C6DC1F3D90EA0057FC70 /* BaseViewController.xib */; };
 		F0F9C6E91F3D90EA0057FC70 /* MymarkerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9C6DF1F3D90EA0057FC70 /* MymarkerView.m */; };
-		F0F9C75E1F3DC6250057FC70 /* combinedchart.png in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C7591F3DC6250057FC70 /* combinedchart.png */; };
-		F0F9C75F1F3DC6250057FC70 /* lineentryicon.png in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C75A1F3DC6250057FC70 /* lineentryicon.png */; };
-		F0F9C7601F3DC6250057FC70 /* samexaxis.png in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C75B1F3DC6250057FC70 /* samexaxis.png */; };
-		F0F9C7611F3DC6250057FC70 /* xaxislabelincenter.png in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C75C1F3DC6250057FC70 /* xaxislabelincenter.png */; };
-		F0F9C7621F3DC6250057FC70 /* xaxislabelrealincenter.png in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C75D1F3DC6250057FC70 /* xaxislabelrealincenter.png */; };
+		F0F9C76A1F3DC7C80057FC70 /* combinedchart.png in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C7651F3DC7C80057FC70 /* combinedchart.png */; };
+		F0F9C76B1F3DC7C80057FC70 /* lineentryicon.png in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C7661F3DC7C80057FC70 /* lineentryicon.png */; };
+		F0F9C76C1F3DC7C80057FC70 /* samexaxis.png in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C7671F3DC7C80057FC70 /* samexaxis.png */; };
+		F0F9C76D1F3DC7C80057FC70 /* xaxislabelincenter.png in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C7681F3DC7C80057FC70 /* xaxislabelincenter.png */; };
+		F0F9C76E1F3DC7C80057FC70 /* xaxislabelrealincenter.png in Resources */ = {isa = PBXBuildFile; fileRef = F0F9C7691F3DC7C80057FC70 /* xaxislabelrealincenter.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,11 +122,11 @@
 		F0F9C6DC1F3D90EA0057FC70 /* BaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseViewController.xib; sourceTree = "<group>"; };
 		F0F9C6DE1F3D90EA0057FC70 /* MymarkerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MymarkerView.h; sourceTree = "<group>"; };
 		F0F9C6DF1F3D90EA0057FC70 /* MymarkerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MymarkerView.m; sourceTree = "<group>"; };
-		F0F9C7591F3DC6250057FC70 /* combinedchart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = combinedchart.png; sourceTree = "<group>"; };
-		F0F9C75A1F3DC6250057FC70 /* lineentryicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lineentryicon.png; sourceTree = "<group>"; };
-		F0F9C75B1F3DC6250057FC70 /* samexaxis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = samexaxis.png; sourceTree = "<group>"; };
-		F0F9C75C1F3DC6250057FC70 /* xaxislabelincenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xaxislabelincenter.png; sourceTree = "<group>"; };
-		F0F9C75D1F3DC6250057FC70 /* xaxislabelrealincenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xaxislabelrealincenter.png; sourceTree = "<group>"; };
+		F0F9C7651F3DC7C80057FC70 /* combinedchart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = combinedchart.png; sourceTree = "<group>"; };
+		F0F9C7661F3DC7C80057FC70 /* lineentryicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lineentryicon.png; sourceTree = "<group>"; };
+		F0F9C7671F3DC7C80057FC70 /* samexaxis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = samexaxis.png; sourceTree = "<group>"; };
+		F0F9C7681F3DC7C80057FC70 /* xaxislabelincenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xaxislabelincenter.png; sourceTree = "<group>"; };
+		F0F9C7691F3DC7C80057FC70 /* xaxislabelrealincenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xaxislabelrealincenter.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +158,7 @@
 		F0F9C67B1F3D8EE20057FC70 = {
 			isa = PBXGroup;
 			children = (
+				F0F9C7641F3DC7C80057FC70 /* screenshot */,
 				F0F9C6BA1F3D905C0057FC70 /* Charts.xcodeproj */,
 				F0F9C6861F3D8EE20057FC70 /* chartsWithCharts */,
 				F0F9C6A01F3D8EE20057FC70 /* chartsWithChartsTests */,
@@ -179,7 +180,6 @@
 		F0F9C6861F3D8EE20057FC70 /* chartsWithCharts */ = {
 			isa = PBXGroup;
 			children = (
-				F0F9C7581F3DC6250057FC70 /* image */,
 				F0F9C6CB1F3D90EA0057FC70 /* controllers */,
 				F0F9C6D91F3D90EA0057FC70 /* parent */,
 				F0F9C6DD1F3D90EA0057FC70 /* views */,
@@ -270,16 +270,17 @@
 			path = views;
 			sourceTree = "<group>";
 		};
-		F0F9C7581F3DC6250057FC70 /* image */ = {
+		F0F9C7641F3DC7C80057FC70 /* screenshot */ = {
 			isa = PBXGroup;
 			children = (
-				F0F9C7591F3DC6250057FC70 /* combinedchart.png */,
-				F0F9C75A1F3DC6250057FC70 /* lineentryicon.png */,
-				F0F9C75B1F3DC6250057FC70 /* samexaxis.png */,
-				F0F9C75C1F3DC6250057FC70 /* xaxislabelincenter.png */,
-				F0F9C75D1F3DC6250057FC70 /* xaxislabelrealincenter.png */,
+				F0F9C7651F3DC7C80057FC70 /* combinedchart.png */,
+				F0F9C7661F3DC7C80057FC70 /* lineentryicon.png */,
+				F0F9C7671F3DC7C80057FC70 /* samexaxis.png */,
+				F0F9C7681F3DC7C80057FC70 /* xaxislabelincenter.png */,
+				F0F9C7691F3DC7C80057FC70 /* xaxislabelrealincenter.png */,
 			);
-			path = image;
+			name = screenshot;
+			path = chartsWithCharts/screenshot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -417,16 +418,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0F9C7621F3DC6250057FC70 /* xaxislabelrealincenter.png in Resources */,
-				F0F9C75F1F3DC6250057FC70 /* lineentryicon.png in Resources */,
+				F0F9C76E1F3DC7C80057FC70 /* xaxislabelrealincenter.png in Resources */,
+				F0F9C76B1F3DC7C80057FC70 /* lineentryicon.png in Resources */,
 				F0F9C6E61F3D90EA0057FC70 /* MainMenuViewController.xib in Resources */,
 				F0F9C6E81F3D90EA0057FC70 /* BaseViewController.xib in Resources */,
-				F0F9C7601F3DC6250057FC70 /* samexaxis.png in Resources */,
+				F0F9C76C1F3DC7C80057FC70 /* samexaxis.png in Resources */,
 				F0F9C6971F3D8EE20057FC70 /* LaunchScreen.storyboard in Resources */,
-				F0F9C7611F3DC6250057FC70 /* xaxislabelincenter.png in Resources */,
+				F0F9C76D1F3DC7C80057FC70 /* xaxislabelincenter.png in Resources */,
 				F0F9C6941F3D8EE20057FC70 /* Assets.xcassets in Resources */,
 				F0F9C6921F3D8EE20057FC70 /* Main.storyboard in Resources */,
-				F0F9C75E1F3DC6250057FC70 /* combinedchart.png in Resources */,
+				F0F9C76A1F3DC7C80057FC70 /* combinedchart.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
